@@ -10,4 +10,4 @@ This repository is an implementation of colour-based segmentation in real-time o
 3. Open ```localhost:8000``` on your web browser and see color-based segmentation in action.
 
 ## Sample Output
-![GitHub Logo](color-segmentation-tjs.gif)
+![GitHub Logo](color-segmentation-tfjs.gif)
