@@ -1,0 +1,61 @@
+.container {
+    display: flex; /* Use flexbox to make the video and canvas side by side */
+    justify-content: space-between; /* Add space between them */
+    padding: 0px;
+    margin-top: 0px;
+}
+
+.video-container,
+.canvas-container {
+    text-align: center;
+}
+
+.label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.video-container {
+	padding-left: 80px;
+}
+
+.canvas-container {
+    padding-right: 80px;
+}
+
+#t1 {
+  margin-bottom: 25px; /* Add a 15px gap below the <p> element */
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#redButton, 
+#greenButton, 
+#blueButton,
+#yellowButton,
+#orangeButton {
+	height: 50px;
+  width: 50px;
+  padding-bottom: 30px;
+}
+
+#redButton {
+  background-color: #F44336; /* Red */
+}
+
+#greenButton {
+  background-color: #76FF03; /* Green */
+}
+
+#blueButton {
+  background-color: #2196F3; /* Blue */
+}
+
+#yellowButton {
+  background-color: #FDD835; /* Yellow */
+}
+
+#orangeButton {
+  background-color: #F57F17; /* Orange */
+}
