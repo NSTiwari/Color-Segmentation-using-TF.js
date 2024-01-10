@@ -14,7 +14,9 @@ This repository demonstrates the implementation of colour-based segmentation in 
 | --------- | --------- | ---- |
 | Red | (0, 50, 50) | (360, 255, 255) |
 | Green | (75, 50, 50) | (360, 255, 255) |
-| 
+| Blue | (150, 50, 50) | (360, 255, 255) |
+| Yellow | (40, 50, 50) | (80, 255, 255) |
+| Orange | (20, 50, 50) | (140, 255, 255) |
 
 ## Sample Output
 ![GitHub Logo](color-segmentation-tfjs.gif)
