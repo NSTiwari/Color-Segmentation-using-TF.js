@@ -9,5 +9,10 @@ This repository demonstrates the implementation of colour-based segmentation in 
    
 3. Open ```localhost:8000``` on your web browser and see color-based segmentation in action.
 
+## Color thresholds
+| Colour | Lower Limit | Upper Li,it |
+| --------- | --------- | ---- |
+|Red| (0, 50, 50) | (360, 255, 255) |
+
 ## Sample Output
 ![GitHub Logo](color-segmentation-tfjs.gif)
