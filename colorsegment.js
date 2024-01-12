@@ -123,29 +123,29 @@ async function main() {
       const hsv = rgbToHsv(r, g, b);
 
       if (isColorPixel(hsv, currentColor)) {
-              // Highlight the chosen color channel, keep other channels as they are
+              // Highlight the chosen color channel, keep other channels as they are.
               if (currentColor === 'red') {
-                imgData.data[i] = 255; // Set red channel to 255 (red)
+                imgData.data[i] = 255; // Set red channel to 255 (red).
               } 
               else if (currentColor === 'green') {
-                imgData.data[i + 1] = 255; // Set green channel to 255 (green)
+                imgData.data[i + 1] = 255; // Set green channel to 255 (green).
               } 
               else if (currentColor === 'blue') {
-                imgData.data[i + 2] = 255; // Set blue channel to 255 (blue)
+                imgData.data[i + 2] = 255; // Set blue channel to 255 (blue).
                 imgData.data[i] = 0;
                 imgData.data[i + 1] = 0;
               }
               else if (currentColor === 'yellow') {
-                imgData.data[i] = 255; // Set red channel to 255 (yellow)
-                imgData.data[i + 1] = 255; // Set green channel to 255 (yellow)
+                imgData.data[i] = 255; // Set red channel to 255 (yellow).
+                imgData.data[i + 1] = 255; // Set green channel to 255 (yellow).
               }
               else if (currentColor === 'orange') {
-                imgData.data[i] = 255; // Set red channel to 255 (yellow)
-                imgData.data[i + 2] = 0; // Set blue channel to 0 (yellow)
+                imgData.data[i] = 255; // Set red channel to 255 (orange).
+                imgData.data[i + 2] = 0; // Set blue channel to 0 (orange).
               }
         } 
           else {
-              // Set all channels to 0 (black) for non-chosen color pixels
+              // Set all channels to 0 (black) for non-chosen color pixels.
             imgData.data[i] = 0;
             imgData.data[i + 1] = 0;
             imgData.data[i + 2] = 0;
