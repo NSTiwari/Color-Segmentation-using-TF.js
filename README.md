@@ -20,5 +20,5 @@ This repository demonstrates the implementation of colour-based segmentation in 
 
 The threshold limits may vary depending upon the lighting conditions, brightness, and orientation of the objects.
 
-## Output
+## Demo Output
 ![GitHub Logo](color-segmentation-tfjs.gif)
