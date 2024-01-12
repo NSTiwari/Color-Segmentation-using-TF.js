@@ -1,8 +1,8 @@
 // HSV range for different colors.
 const colorRanges = {
   red: {
-    lower: tf.tensor1d([0, 50, 50]), // Lower bound in HSV for red
-    upper: tf.tensor1d([360, 255, 255]), // Upper bound in HSV for red
+    lower: tf.tensor1d([0, 50, 50]), // Lower bound in HSV for red.
+    upper: tf.tensor1d([360, 255, 255]), // Upper bound in HSV for red.
   },
   green: {
     lower: tf.tensor1d([75, 50, 50]), // Lower bound in HSV for green
