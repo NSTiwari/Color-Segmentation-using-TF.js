@@ -5,26 +5,26 @@ const colorRanges = {
     upper: tf.tensor1d([360, 255, 255]), // Upper bound in HSV for red.
   },
   green: {
-    lower: tf.tensor1d([75, 50, 50]), // Lower bound in HSV for green
-    upper: tf.tensor1d([360, 255, 255]), // Upper bound in HSV for green
+    lower: tf.tensor1d([75, 50, 50]), // Lower bound in HSV for green.
+    upper: tf.tensor1d([360, 255, 255]), // Upper bound in HSV for green.
   },
   blue: {
-    lower: tf.tensor1d([150, 50, 50]), // Lower bound in HSV for blue
-    upper: tf.tensor1d([360, 255, 255]), // Upper bound in HSV for blue
+    lower: tf.tensor1d([150, 50, 50]), // Lower bound in HSV for blue.
+    upper: tf.tensor1d([360, 255, 255]), // Upper bound in HSV for blue.
   },
   yellow: {
-    lower: tf.tensor1d([40, 50, 50]), // Lower bound in HSV for yellow
-    upper: tf.tensor1d([80, 255, 255]), // Upper bound in HSV for yellow
+    lower: tf.tensor1d([40, 50, 50]), // Lower bound in HSV for yellow.
+    upper: tf.tensor1d([80, 255, 255]), // Upper bound in HSV for yellow.
   },
   orange: {
-    lower: tf.tensor1d([20, 50, 50]), // Lower bound in HSV for orange
-    upper: tf.tensor1d([140, 255, 255]), // Upper bound in HSV for orange
+    lower: tf.tensor1d([20, 50, 50]), // Lower bound in HSV for orange.
+    upper: tf.tensor1d([140, 255, 255]), // Upper bound in HSV for orange.
   },
 };
 
 
 
-let currentColor = 'blue'; // Default color
+let currentColor = 'blue'; // Default color.
 
 async function setupWebcam() {
   const videoElement = document.getElementById('webcam');
